@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Task Input</h1>
+    </header>
+    <section class="container">
+        <form id="my-form">
+          <h1>Add Task</h1>
+          <div class="msg"></div>
+          <div>
+            <label for="title">Name:</label>
+            <input type="text" id="title">
+          </div>
+          <div>
+            <label for="start">Enter Start Time and Date</label>
+            <input type="datetime-local" id="start">
+          </div>
+          <div>
+            <label for="end">Enter End Time and Date</label>
+            <input type="datetime-local" id="end">
+          </div>
+          <div>
+            <label for="des">Enter Description</label>
+            <input type="text" id="des">
+          </div>
+          <input class="btn" type="submit" value="Submit">
+        </form>
+    </section>
+    <ul id="list"></ul>
+    <script src="spid2.js"></script>
+
+</body>
+</html>
